@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	background-color: #F58634;
+	font-family: "Arial", Times, serif;
+}
+
+section#persona-vinder, section#accion-vinder {
+	float:left;
+}	
+
+section#persona-vinder{
+	width: 40%;
+}
+
+
+section#accion-vinder{
+	width: 60%;
+}
+
+section#persona-vinder img {
+	width: 100%;
+}
+
+section#accion-vinder img {
+	width: 44%;
+	margin: 10px auto;
+	display: block;
+}
+section#accion-vinder H1 {
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+}
+
+section#accion-vinder #boton-accion {
+	background: transparent url('img/boton.png') no-repeat left top; 
+	height: 50px; 
+	width: 320px;
+	margin: 30px auto;
+}
+
+
+section#accion-vinder #boton-accion a {
+	font-size: 19px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 15px 0 0 30px;
+}
+
+section#accion-vinder #boton-accion a:hover {
+	text-decoration: underline;	
+}
+
+/* @media Rule */
+@media all and (max-width: 700px) {
+	section#persona-vinder, section#accion-vinder{
+		width: 100%;
+	}
+
+}
